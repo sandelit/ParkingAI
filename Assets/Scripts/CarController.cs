@@ -28,6 +28,9 @@ public class CarController : MonoBehaviour
     [SerializeField] private Transform rearLeftWheelTransform;
     [SerializeField] private Transform rearRightWheelTransform;
 
+    // TODO if car.rotationX == -180/180 eller   (x > 100 || x < -100) --> Restart()
+
+
     private void FixedUpdate()
     {
         GetInput();

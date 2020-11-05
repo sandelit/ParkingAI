@@ -57,13 +57,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CarController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <None Include="Assets\Toon Gas Station\ToonShading\Shaders\ToonBasicOutline.shader" />
-     <None Include="Assets\Toon Gas Station\ToonShading\Shaders\ToonBasic.shader" />
-     <None Include="Assets\Toon Gas Station\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\3DModels\Toon Gas Station\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\3DModels\Toon Gas Station\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\3DModels\Toon Gas Station\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\3DModels\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
-     <None Include="Assets\Toon Gas Station\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\3DModels\Toon Gas Station\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\3DModels\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
-     <None Include="Assets\Toon Gas Station\Documentation\Toon Gas Station Documentation.txt" />
+     <None Include="Assets\3DModels\Toon Gas Station\Documentation\Toon Gas Station Documentation.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/sandelit/Documents/dev/unity/ParkingAI/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

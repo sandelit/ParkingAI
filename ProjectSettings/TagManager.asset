@@ -9,6 +9,8 @@ TagManager:
   - Decoration
   - Cars
   - Wall
+  - Roads
+  - Points
   layers:
   - Default
   - TransparentFX

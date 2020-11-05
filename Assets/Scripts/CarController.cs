@@ -47,11 +47,13 @@ public class CarController : Agent
 
     public override void OnActionReceived(float[] vectorAction)
     {
-
         currentSteerAngle = vectorAction[0];
         currentAcceleration = vectorAction[1];
         currentbreakForce = vectorAction[2];
-
+        AddReward(-0.01f);
+        if(currentAcceleration > 0){
+            AddReward(0.005f);
+        }
     }
 
     public override void Heuristic(float[] actionsOut)
@@ -66,7 +68,15 @@ public class CarController : Agent
         if (other.gameObject.CompareTag("Cars") || other.gameObject.CompareTag("Decoration") 
         || other.gameObject.CompareTag("House") || other.gameObject.CompareTag("Wall")) 
         {
-            AddReward(-0.1f);
+            AddReward(-0.5f);
+            EndEpisode();
+            ResetCar();
+        }
+        if(other.gameObject.CompareTag("Roads")){
+            AddReward(0.01f);
+        }
+        if(other.gameObject.CompareTag("ParkingSpot")){
+            AddReward(1.0f);
             EndEpisode();
             ResetCar();
         }
@@ -89,7 +99,6 @@ public class CarController : Agent
     private void FixedUpdate()
     {
         RequestDecision();
-
         HandleMotor();
         HandleSteering();
         UpdateWheels();

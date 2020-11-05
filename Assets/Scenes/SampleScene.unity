@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 376192209}
   m_Layer: 0
   m_Name: ParkingSpot2
-  m_TagString: Untagged
+  m_TagString: ParkingSpot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2249,7 +2249,7 @@ GameObject:
   - component: {fileID: 679515819}
   m_Layer: 0
   m_Name: ParkingSpot0
-  m_TagString: ParkingSpot
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3223,7 +3223,7 @@ GameObject:
   - component: {fileID: 911945211}
   m_Layer: 0
   m_Name: Roads
-  m_TagString: Untagged
+  m_TagString: Roads
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17630,7 +17630,7 @@ GameObject:
   - component: {fileID: 7824610218051506576}
   m_Layer: 0
   m_Name: Car_03
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

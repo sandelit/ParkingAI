@@ -58,7 +58,6 @@
      <Compile Include="Assets\Scripts\BreakLights.cs" />
      <Compile Include="Assets\Scripts\CarController.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\ParkingAgent.cs" />
      <None Include="Assets\3DModels\Toon Gas Station\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\3DModels\Toon Gas Station\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\3DModels\Toon Gas Station\ToonShading\Shaders\ToonLit.shader" />

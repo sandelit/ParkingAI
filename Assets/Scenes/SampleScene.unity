@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 27663568}
   m_Layer: 0
   m_Name: House_01 (4)
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 30578686}
   m_Layer: 0
   m_Name: Cube (17)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 54595440}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 127591472}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (88)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 170877543}
   m_Layer: 0
   m_Name: Cube (15)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 254168472}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (87)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 321424523}
   m_Layer: 0
   m_Name: Cube (20)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1241,7 +1241,7 @@ GameObject:
   - component: {fileID: 509283879}
   m_Layer: 0
   m_Name: Pavement_Rounded_2E_8X8 (1)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1386,7 +1386,7 @@ GameObject:
   - component: {fileID: 539082384}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (81)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1481,7 +1481,7 @@ GameObject:
   - component: {fileID: 548122887}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 570179794}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1903,7 +1903,7 @@ GameObject:
   - component: {fileID: 619373204}
   m_Layer: 0
   m_Name: Cube (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2093,7 +2093,7 @@ GameObject:
   - component: {fileID: 647282501}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2341,7 +2341,7 @@ GameObject:
   - component: {fileID: 687041159}
   m_Layer: 0
   m_Name: Decorations
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2469,6 +2469,7 @@ Transform:
   - {fileID: 4708587859425404169}
   - {fileID: 1594329637}
   - {fileID: 1192203975}
+  - {fileID: 1352072981}
   m_Father: {fileID: 1919216428}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2578,7 +2579,7 @@ GameObject:
   - component: {fileID: 707235592}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2673,7 +2674,7 @@ GameObject:
   - component: {fileID: 804880142}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2766,7 +2767,7 @@ GameObject:
   - component: {fileID: 813564206}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2859,7 +2860,7 @@ GameObject:
   - component: {fileID: 823715279}
   m_Layer: 0
   m_Name: Cars
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3130,7 +3131,7 @@ GameObject:
   - component: {fileID: 898701787}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3269,7 +3270,7 @@ GameObject:
   - component: {fileID: 950027010}
   m_Layer: 0
   m_Name: Cube (18)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3559,7 +3560,7 @@ GameObject:
   - component: {fileID: 965846500}
   m_Layer: 0
   m_Name: House_01 (3)
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3747,7 +3748,7 @@ GameObject:
   - component: {fileID: 968458269}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (93)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3842,7 +3843,7 @@ GameObject:
   - component: {fileID: 985302245}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (91)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4029,7 +4030,7 @@ GameObject:
   - component: {fileID: 1013508995}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (92)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4124,7 +4125,7 @@ GameObject:
   - component: {fileID: 1045190515}
   m_Layer: 0
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4219,7 +4220,7 @@ GameObject:
   - component: {fileID: 1094816036}
   m_Layer: 0
   m_Name: Pavement_Rounded_2E_8X8 (2)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4312,7 +4313,7 @@ GameObject:
   - component: {fileID: 1103135935}
   m_Layer: 0
   m_Name: Houses
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4353,7 +4354,7 @@ GameObject:
   - component: {fileID: 1122545309}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4448,7 +4449,7 @@ GameObject:
   - component: {fileID: 1142022699}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (89)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4638,7 +4639,7 @@ GameObject:
   - component: {fileID: 1192203976}
   m_Layer: 0
   m_Name: Streetlight_1C (3)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4909,6 +4910,102 @@ WheelCollider:
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
   m_Enabled: 1
+--- !u!1 &1352072980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352072981}
+  - component: {fileID: 1352072984}
+  - component: {fileID: 1352072983}
+  - component: {fileID: 1352072982}
+  m_Layer: 0
+  m_Name: Cylinder
+  m_TagString: Wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352072981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352072980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.195114, y: 4.9, z: -4.706291}
+  m_LocalScale: {x: 6.087688, y: 8.647561, z: 6.087688}
+  m_Children: []
+  m_Father: {fileID: 687041159}
+  m_RootOrder: 112
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1352072982
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352072980}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!23 &1352072983
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352072980}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1352072984
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352072980}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1366330799
 GameObject:
   m_ObjectHideFlags: 0
@@ -5015,7 +5112,7 @@ GameObject:
   - component: {fileID: 1443525643}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (90)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5110,7 +5207,7 @@ GameObject:
   - component: {fileID: 1457683221}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (86)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5205,7 +5302,7 @@ GameObject:
   - component: {fileID: 1472081043}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (85)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5334,7 +5431,7 @@ GameObject:
   - component: {fileID: 1545571369}
   m_Layer: 0
   m_Name: Cube (14)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5429,7 +5526,7 @@ GameObject:
   - component: {fileID: 1585531460}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (83)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5524,7 +5621,7 @@ GameObject:
   - component: {fileID: 1588052499}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (84)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5619,7 +5716,7 @@ GameObject:
   - component: {fileID: 1594329638}
   m_Layer: 0
   m_Name: Streetlight_1C (2)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5747,7 +5844,7 @@ GameObject:
   - component: {fileID: 1704032309}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (82)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5903,7 +6000,7 @@ GameObject:
   - component: {fileID: 1744857489}
   m_Layer: 0
   m_Name: Cube (19)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5998,7 +6095,7 @@ GameObject:
   - component: {fileID: 1800711281}
   m_Layer: 0
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6093,7 +6190,7 @@ GameObject:
   - component: {fileID: 1818433340}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6249,7 +6346,7 @@ GameObject:
   - component: {fileID: 1905926884}
   m_Layer: 0
   m_Name: Cube (13)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6379,7 +6476,7 @@ GameObject:
   - component: {fileID: 1969921503}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6569,7 +6666,7 @@ GameObject:
   - component: {fileID: 2052183336}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6665,7 +6762,7 @@ GameObject:
   - component: {fileID: 2067710638}
   m_Layer: 0
   m_Name: Cube (21)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6760,7 +6857,7 @@ GameObject:
   - component: {fileID: 2135319845}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (80)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6855,7 +6952,7 @@ GameObject:
   - component: {fileID: 64359999039691506}
   m_Layer: 0
   m_Name: Building_7B (1)
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6874,7 +6971,7 @@ GameObject:
   - component: {fileID: 64359999227338843}
   m_Layer: 0
   m_Name: Building_7B
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6948,7 +7045,7 @@ GameObject:
   - component: {fileID: 64314721873544110}
   m_Layer: 0
   m_Name: Trees_6A
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6967,7 +7064,7 @@ GameObject:
   - component: {fileID: 64314722957539230}
   m_Layer: 0
   m_Name: Trees_6A (2)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6986,7 +7083,7 @@ GameObject:
   - component: {fileID: 64314722835854379}
   m_Layer: 0
   m_Name: Trees_6A (1)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7005,7 +7102,7 @@ GameObject:
   - component: {fileID: 65914967263504592}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (16)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7024,7 +7121,7 @@ GameObject:
   - component: {fileID: 65914967289391535}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (47)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7043,7 +7140,7 @@ GameObject:
   - component: {fileID: 65914967300424007}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (51)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7062,7 +7159,7 @@ GameObject:
   - component: {fileID: 65914967496669545}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (45)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7081,7 +7178,7 @@ GameObject:
   - component: {fileID: 65914967511557404}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (9)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7100,7 +7197,7 @@ GameObject:
   - component: {fileID: 65914967443499071}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (38)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7119,7 +7216,7 @@ GameObject:
   - component: {fileID: 65914967439417368}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (31)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7138,7 +7235,7 @@ GameObject:
   - component: {fileID: 65914967600591205}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (30)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7157,7 +7254,7 @@ GameObject:
   - component: {fileID: 65914967642747016}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (8)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7176,7 +7273,7 @@ GameObject:
   - component: {fileID: 65914967560425997}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (4)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7195,7 +7292,7 @@ GameObject:
   - component: {fileID: 65914967568169161}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (35)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7214,7 +7311,7 @@ GameObject:
   - component: {fileID: 65914967715965334}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (23)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7233,7 +7330,7 @@ GameObject:
   - component: {fileID: 65914967651443210}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (21)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7252,7 +7349,7 @@ GameObject:
   - component: {fileID: 65914967873865537}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (2)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7271,7 +7368,7 @@ GameObject:
   - component: {fileID: 65914967898818947}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (37)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7290,7 +7387,7 @@ GameObject:
   - component: {fileID: 65914967788522415}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (33)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7309,7 +7406,7 @@ GameObject:
   - component: {fileID: 65914967782413732}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (12)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7328,7 +7425,7 @@ GameObject:
   - component: {fileID: 65914967793028063}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (3)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7347,7 +7444,7 @@ GameObject:
   - component: {fileID: 65914967995127293}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (10)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7366,7 +7463,7 @@ GameObject:
   - component: {fileID: 65914968015562381}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (26)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7385,7 +7482,7 @@ GameObject:
   - component: {fileID: 65914967928742186}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (41)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7404,7 +7501,7 @@ GameObject:
   - component: {fileID: 65914967946660494}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (43)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7423,7 +7520,7 @@ GameObject:
   - component: {fileID: 65914967941625832}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (20)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7442,7 +7539,7 @@ GameObject:
   - component: {fileID: 65914968081331978}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (50)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7461,7 +7558,7 @@ GameObject:
   - component: {fileID: 65914968094785825}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (34)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7480,7 +7577,7 @@ GameObject:
   - component: {fileID: 65914968094547540}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (17)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7499,7 +7596,7 @@ GameObject:
   - component: {fileID: 65914968301965510}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (32)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7518,7 +7615,7 @@ GameObject:
   - component: {fileID: 65914966259707123}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (39)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7537,7 +7634,7 @@ GameObject:
   - component: {fileID: 65914966266294353}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (24)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7556,7 +7653,7 @@ GameObject:
   - component: {fileID: 65914966275275279}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (13)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7575,7 +7672,7 @@ GameObject:
   - component: {fileID: 65914966405362595}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (28)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7594,7 +7691,7 @@ GameObject:
   - component: {fileID: 65914966401183285}
   m_Layer: 0
   m_Name: Pavement_2J_4X4
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7613,7 +7710,7 @@ GameObject:
   - component: {fileID: 65914966407645661}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (44)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7632,7 +7729,7 @@ GameObject:
   - component: {fileID: 65914966438211941}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (1)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7651,7 +7748,7 @@ GameObject:
   - component: {fileID: 65914966343572410}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (6)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7670,7 +7767,7 @@ GameObject:
   - component: {fileID: 65914966351945042}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (42)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7689,7 +7786,7 @@ GameObject:
   - component: {fileID: 65914966557072951}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (11)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7708,7 +7805,7 @@ GameObject:
   - component: {fileID: 65914966449535028}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (18)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7727,7 +7824,7 @@ GameObject:
   - component: {fileID: 65914966780009081}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (15)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7746,7 +7843,7 @@ GameObject:
   - component: {fileID: 65914966803191418}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (7)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7765,7 +7862,7 @@ GameObject:
   - component: {fileID: 65914966749523549}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (40)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7784,7 +7881,7 @@ GameObject:
   - component: {fileID: 65914966769536124}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (48)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7803,7 +7900,7 @@ GameObject:
   - component: {fileID: 65914966852305413}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (49)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7822,7 +7919,7 @@ GameObject:
   - component: {fileID: 65914966884345701}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (36)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7841,7 +7938,7 @@ GameObject:
   - component: {fileID: 65914966899172724}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (19)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7860,7 +7957,7 @@ GameObject:
   - component: {fileID: 65914967069469317}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (27)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7879,7 +7976,7 @@ GameObject:
   - component: {fileID: 65914967086223794}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (22)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7898,7 +7995,7 @@ GameObject:
   - component: {fileID: 65914967016376708}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (14)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7917,7 +8014,7 @@ GameObject:
   - component: {fileID: 65914967037295020}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (5)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7936,7 +8033,7 @@ GameObject:
   - component: {fileID: 65914967214420154}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (29)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7955,7 +8052,7 @@ GameObject:
   - component: {fileID: 65914967232942501}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (25)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7974,7 +8071,7 @@ GameObject:
   - component: {fileID: 65914967162830512}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (46)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8031,7 +8128,7 @@ GameObject:
   - component: {fileID: 64632781593049911}
   m_Layer: 0
   m_Name: Building_17E
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8087,7 +8184,7 @@ GameObject:
   - component: {fileID: 65454528966698100}
   m_Layer: 0
   m_Name: Tree_6A
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8124,7 +8221,7 @@ GameObject:
   - component: {fileID: 64742032868171482}
   m_Layer: 0
   m_Name: Building_7C
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8200,7 +8297,7 @@ GameObject:
   - component: {fileID: 64147248791393467}
   m_Layer: 0
   m_Name: Streetsign_3E (1)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8219,7 +8316,7 @@ GameObject:
   - component: {fileID: 64147248192477874}
   m_Layer: 0
   m_Name: Streetsign_3E (5)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8238,7 +8335,7 @@ GameObject:
   - component: {fileID: 64147247828405406}
   m_Layer: 0
   m_Name: Streetsign_3E (2)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8257,7 +8354,7 @@ GameObject:
   - component: {fileID: 64147249832354752}
   m_Layer: 0
   m_Name: Streetsign_3E (3)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8276,7 +8373,7 @@ GameObject:
   - component: {fileID: 64147249274330303}
   m_Layer: 0
   m_Name: Streetsign_3E (4)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8295,7 +8392,7 @@ GameObject:
   - component: {fileID: 64147249087395451}
   m_Layer: 0
   m_Name: Streetsign_3E
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8315,7 +8412,7 @@ GameObject:
   - component: {fileID: 65311148573200971}
   m_Layer: 0
   m_Name: Tree_6B
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8353,7 +8450,7 @@ GameObject:
   - component: {fileID: 64043362297805431}
   m_Layer: 0
   m_Name: Pavement_Rounded_2E_8X8
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8372,7 +8469,7 @@ GameObject:
   - component: {fileID: 64043363120603894}
   m_Layer: 0
   m_Name: Pavement_Rounded_2E_8X8
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8392,7 +8489,7 @@ GameObject:
   - component: {fileID: 95589478641932134}
   m_Layer: 0
   m_Name: Gas_Station_2A
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14791,7 +14888,7 @@ GameObject:
   - component: {fileID: 87640835236372230}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (67)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15625,7 +15722,7 @@ GameObject:
   - component: {fileID: 417481113489333552}
   m_Layer: 0
   m_Name: Truck_2_Red
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15727,7 +15824,7 @@ GameObject:
   - component: {fileID: 497272982563102156}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (63)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16583,7 +16680,7 @@ GameObject:
   - component: {fileID: 632883204346972224}
   m_Layer: 0
   m_Name: Truck_1_Blue
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17134,7 +17231,7 @@ GameObject:
   - component: {fileID: 938575357839029083}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (75)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17229,7 +17326,7 @@ GameObject:
   - component: {fileID: 1095306598654778970}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (71)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17282,7 +17379,7 @@ GameObject:
   - component: {fileID: 1476971678248596842}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (72)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17370,7 +17467,7 @@ GameObject:
   - component: {fileID: 1466564075318166892}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (60)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17607,7 +17704,7 @@ GameObject:
   - component: {fileID: 2157650526361797064}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (57)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17675,7 +17772,7 @@ GameObject:
   - component: {fileID: 2142188257174543389}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (59)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17805,7 +17902,7 @@ GameObject:
   - component: {fileID: 2272105267260875195}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (68)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18171,7 +18268,7 @@ GameObject:
   - component: {fileID: 2498311769905917720}
   m_Layer: 0
   m_Name: Bus_Yellow
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18516,7 +18613,7 @@ GameObject:
   - component: {fileID: 2823060546618863025}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (78)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18547,7 +18644,7 @@ GameObject:
   - component: {fileID: 2872759323716056590}
   m_Layer: 0
   m_Name: Car_03
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18621,7 +18718,7 @@ GameObject:
   - component: {fileID: 3092020882283476731}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (54)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19095,7 +19192,7 @@ GameObject:
   - component: {fileID: 3093169946392774697}
   m_Layer: 0
   m_Name: Car_6_Red
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19415,7 +19512,7 @@ GameObject:
   - component: {fileID: 3095131479688646446}
   m_Layer: 0
   m_Name: Car_6_Purple
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19921,7 +20018,7 @@ GameObject:
   - component: {fileID: 3350704527474600563}
   m_Layer: 0
   m_Name: Car_4_Silver
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20055,7 +20152,7 @@ GameObject:
   - component: {fileID: 3491040972174668852}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (76)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20214,7 +20311,7 @@ GameObject:
   - component: {fileID: 4166107864009233673}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (65)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20776,7 +20873,7 @@ GameObject:
   - component: {fileID: 4733690075352194377}
   m_Layer: 0
   m_Name: Streetlight_1C (1)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20893,7 +20990,7 @@ GameObject:
   - component: {fileID: 4873730427834535736}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (70)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21248,7 +21345,7 @@ GameObject:
   - component: {fileID: 4900294375398700739}
   m_Layer: 0
   m_Name: Policecar (1)
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21611,7 +21708,7 @@ GameObject:
   - component: {fileID: 5149866773143884376}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (61)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21765,7 +21862,7 @@ GameObject:
   - component: {fileID: 5212491955976192666}
   m_Layer: 0
   m_Name: Car_5_Red
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22251,7 +22348,7 @@ GameObject:
   - component: {fileID: 5326456965601581975}
   m_Layer: 0
   m_Name: Policecar
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22622,7 +22719,7 @@ GameObject:
   - component: {fileID: 5545135548101912060}
   m_Layer: 0
   m_Name: Car_6_Blue (1)
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23052,7 +23149,7 @@ GameObject:
   - component: {fileID: 5611083491793813245}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (69)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23324,7 +23421,7 @@ GameObject:
   - component: {fileID: 5911959831374143371}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (77)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23467,7 +23564,7 @@ GameObject:
   - component: {fileID: 6042465084608732947}
   m_Layer: 0
   m_Name: Car_6_Blue
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23814,7 +23911,7 @@ GameObject:
   - component: {fileID: 6220351979298424851}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (79)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24164,7 +24261,7 @@ GameObject:
   - component: {fileID: 6261801567057594880}
   m_Layer: 0
   m_Name: Car_1_Red
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24803,7 +24900,7 @@ GameObject:
   - component: {fileID: 6924177879268313593}
   m_Layer: 0
   m_Name: Car_5_Blue
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24942,7 +25039,7 @@ GameObject:
   - component: {fileID: 7115002948882692877}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (64)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25091,7 +25188,7 @@ GameObject:
   - component: {fileID: 7505741868762456840}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (53)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25534,7 +25631,7 @@ GameObject:
   - component: {fileID: 7604499609274547192}
   m_Layer: 0
   m_Name: Car_4_Red
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25673,7 +25770,7 @@ GameObject:
   - component: {fileID: 7610506748492090621}
   m_Layer: 0
   m_Name: Policecar
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26011,7 +26108,7 @@ GameObject:
   - component: {fileID: 7597760793386781398}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (73)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26142,7 +26239,7 @@ GameObject:
   - component: {fileID: 7689880083420989145}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (58)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26250,7 +26347,7 @@ GameObject:
   - component: {fileID: 7938141048639837420}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (52)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26332,7 +26429,7 @@ GameObject:
   - component: {fileID: 8046261732377413851}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (66)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26411,7 +26508,7 @@ GameObject:
   - component: {fileID: 8197623776700963534}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (74)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26519,7 +26616,7 @@ GameObject:
   - component: {fileID: 8610649139112649328}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (56)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26593,7 +26690,7 @@ GameObject:
   - component: {fileID: 5425636712225127902}
   m_Layer: 0
   m_Name: House_16 (1)
-  m_TagString: Untagged
+  m_TagString: House
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26656,7 +26753,7 @@ GameObject:
   - component: {fileID: 8650006417413088340}
   m_Layer: 0
   m_Name: Car_4_Red
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27099,7 +27196,7 @@ GameObject:
   - component: {fileID: 8925889173394455112}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (55)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27230,7 +27327,7 @@ GameObject:
   - component: {fileID: 9077271116233380664}
   m_Layer: 0
   m_Name: Car_2_Yellow
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27723,7 +27820,7 @@ GameObject:
   - component: {fileID: 9130602549994351610}
   m_Layer: 0
   m_Name: Pavement_2J_4X4 (62)
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27796,7 +27893,7 @@ GameObject:
   - component: {fileID: 9109251210100663180}
   m_Layer: 0
   m_Name: Car_5_Yellow
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

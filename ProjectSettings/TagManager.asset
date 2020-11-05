@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - ParkingSpot
+  - House
+  - Decoration
+  - Cars
+  - Wall
   layers:
   - Default
   - TransparentFX

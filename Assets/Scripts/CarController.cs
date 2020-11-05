@@ -10,11 +10,8 @@ public class CarController : Agent
     private GameObject Car;
     GameObject[] ParkingSpots;
 
-    private const string HORIZONTAL = "Horizontal";
-    private const string VERTICAL = "Vertical";
-    private float horizontalInput;
-    private float verticalInput;
     private float currentSteerAngle;
+    private float currentAcceleration;
     private float currentbreakForce;
     private bool isBreaking;
 
@@ -50,21 +47,31 @@ public class CarController : Agent
 
     public override void OnActionReceived(float[] vectorAction)
     {
-        /*
-        _controller.CurrentSteeringAngle = vectorAction[0];
-        _controller.CurrentAcceleration = vectorAction[1];
-        _controller.CurrentBrakeTorque = vectorAction[2];
-        */
+
+        currentSteerAngle = vectorAction[0];
+        currentAcceleration = vectorAction[1];
+        currentbreakForce = vectorAction[2];
+
     }
 
     public override void Heuristic(float[] actionsOut)
     {
+        actionsOut[0] = Input.GetAxis("Horizontal");
+        actionsOut[1] = Input.GetAxis("Vertical");
+        actionsOut[2] = Input.GetAxis("Jump");
     }
 
     private void OnCollisionEnter(Collision other)
     {
-
+        if (other.gameObject.CompareTag("Cars") || other.gameObject.CompareTag("Decoration") 
+        || other.gameObject.CompareTag("House") || other.gameObject.CompareTag("Wall")) 
+        {
+            AddReward(-0.1f);
+            EndEpisode();
+            ResetCar();
+        }
     }
+
 
     public override void CollectObservations(VectorSensor sensor)
     {
@@ -73,10 +80,9 @@ public class CarController : Agent
         sensor.AddObservation(transform.position.normalized); // Bilens position
         sensor.AddObservation(transform.forward); // Bilens Z-rotation
         sensor.AddObservation(transform.right); // Bilens X-rotation
-        sensor.AddObservation(rb.velocity); // Bilens hastighet ??????? kanske idk ????
+        sensor.AddObservation(rb.velocity); // Bilens hastighet                             ??????? kanske idk ????
         sensor.AddObservation(ParkingSpots[0].transform.position); // Parkeringens position
         sensor.AddObservation(dirToTarget); // Riktning mot parkering
-
     }
 
 
@@ -84,31 +90,15 @@ public class CarController : Agent
     {
         RequestDecision();
 
-
-        GetInput();
         HandleMotor();
         HandleSteering();
         UpdateWheels();
-
-        if(Input.GetKey(KeyCode.Space))
-        {
-            //ResetCar();
-        }
-
-    }
-
-
-    private void GetInput()
-    {
-        horizontalInput = Input.GetAxis(HORIZONTAL);
-        verticalInput = Input.GetAxis(VERTICAL);
-        isBreaking = Input.GetKey(KeyCode.Space);
     }
 
     private void HandleMotor()
     {
-        frontLeftWheelCollider.motorTorque = verticalInput * motorForce;
-        frontRightWheelCollider.motorTorque = verticalInput * motorForce;
+        frontLeftWheelCollider.motorTorque = currentAcceleration * motorForce;
+        frontRightWheelCollider.motorTorque = currentAcceleration * motorForce;
 
         currentbreakForce = isBreaking ? breakForce : 0f;
 
@@ -125,9 +115,8 @@ public class CarController : Agent
 
     private void HandleSteering()
     {
-        currentSteerAngle = maxSteerAngle * horizontalInput;
-        frontLeftWheelCollider.steerAngle = currentSteerAngle;
-        frontRightWheelCollider.steerAngle = currentSteerAngle;
+        frontLeftWheelCollider.steerAngle = currentSteerAngle * maxSteerAngle;
+        frontRightWheelCollider.steerAngle = currentSteerAngle * maxSteerAngle;
     }
 
     private void UpdateWheels()

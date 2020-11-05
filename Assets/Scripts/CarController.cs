@@ -103,8 +103,11 @@ public class CarController : MonoBehaviour
     public void ResetCar()
     {
         Vector3 position = new Vector3(UnityEngine.Random.Range(-230f, -235f), 0, UnityEngine.Random.Range(0f, 40f));
+        Vector3 rotation = new Vector3(0, 0, UnityEngine.Random.Range(-1, 1));
 
         frontLeftWheelCollider.attachedRigidbody.velocity = new Vector3(0, 0, 0);
-        Car.transform.SetPositionAndRotation(position, new Quaternion(0, 0, 0, 0));
+
+        Car.transform.position = position;
+        Car.transform.rotation = Quaternion.LookRotation(rotation);
     }
 }

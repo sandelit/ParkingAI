@@ -48,7 +48,7 @@ public class CarController : MonoBehaviour
 
         if(Input.GetKey(KeyCode.Space))
         {
-            ResetCar();
+            //ResetCar();
         }
 
     }
@@ -65,6 +65,7 @@ public class CarController : MonoBehaviour
     {
         frontLeftWheelCollider.motorTorque = verticalInput * motorForce;
         frontRightWheelCollider.motorTorque = verticalInput * motorForce;
+
         currentbreakForce = isBreaking ? breakForce : 0f;
 
         ApplyBreaking();

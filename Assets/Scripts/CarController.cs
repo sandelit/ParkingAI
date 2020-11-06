@@ -9,6 +9,7 @@ public class CarController : Agent
 {
     private GameObject Car;
     GameObject[] ParkingSpots;
+    GameObject ParkingSpot;
 
     private float currentSteerAngle;
     private float currentAcceleration;
@@ -35,6 +36,8 @@ public class CarController : Agent
     public override void Initialize()
     {
         ParkingSpots = GameObject.FindGameObjectsWithTag("ParkingSpot");
+        ParkingSpot = ParkingSpots[0];
+
         Car = GameObject.Find("Car");
         rb = Car.GetComponent<Rigidbody>();
         rb.centerOfMass = new Vector3(0, 0.3f, 0);
@@ -50,6 +53,7 @@ public class CarController : Agent
         currentSteerAngle = vectorAction[0];
         currentAcceleration = vectorAction[1];
         currentbreakForce = vectorAction[2];
+
         AddReward(-0.01f);
         if(currentAcceleration > 0){
             AddReward(0.005f);
@@ -75,23 +79,29 @@ public class CarController : Agent
         if(other.gameObject.CompareTag("Roads")){
             AddReward(0.01f);
         }
-        if(other.gameObject.CompareTag("ParkingSpot")){
-            AddReward(1.0f);
+
+        //////////////////////////////////////////////////////////////////////////////////////
+        // TODO: Kolla om hjulen kolliderar med parkeringsrutan istället för bilens hitbox :))
+        if (other.gameObject.CompareTag("ParkingSpot")){
+            AddReward(5.0f);
             EndEpisode();
             ResetCar();
         }
+        //////////////////////////////////////////////////////////////////////////////////////
+
+
     }
 
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        Vector3 dirToTarget = (ParkingSpots[0].transform.position - transform.position).normalized;
+        Vector3 dirToTarget = (ParkingSpot.transform.position - transform.position).normalized;
 
         sensor.AddObservation(transform.position.normalized); // Bilens position
         sensor.AddObservation(transform.forward); // Bilens Z-rotation
         sensor.AddObservation(transform.right); // Bilens X-rotation
         sensor.AddObservation(rb.velocity); // Bilens hastighet                             ??????? kanske idk ????
-        sensor.AddObservation(ParkingSpots[0].transform.position); // Parkeringens position
+        sensor.AddObservation(ParkingSpot.transform.position); // Parkeringens position
         sensor.AddObservation(dirToTarget); // Riktning mot parkering
     }
 
@@ -109,8 +119,14 @@ public class CarController : Agent
         frontLeftWheelCollider.motorTorque = currentAcceleration * motorForce;
         frontRightWheelCollider.motorTorque = currentAcceleration * motorForce;
 
-        currentbreakForce = isBreaking ? breakForce : 0f;
-
+        if (currentbreakForce > 0)
+        {
+            currentbreakForce = breakForce;
+        }
+        else
+        {
+            currentbreakForce = 0f;
+        }
         ApplyBreaking();
     }
 

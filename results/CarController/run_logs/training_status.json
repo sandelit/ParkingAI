@@ -2,17 +2,17 @@
     "CarController": {
         "checkpoints": [
             {
-                "steps": 8993,
-                "file_path": "results/CarController/CarController/CarController-8993.nn",
-                "reward": -0.10000000149011612,
-                "creation_time": 1604591438.716545
+                "steps": 12416,
+                "file_path": "results/CarController/CarController/CarController-12416.nn",
+                "reward": null,
+                "creation_time": 1604750183.7165935
             }
         ],
         "final_checkpoint": {
-            "steps": 8993,
+            "steps": 12416,
             "file_path": "results/CarController/CarController.nn",
-            "reward": -0.10000000149011612,
-            "creation_time": 1604591438.716545
+            "reward": null,
+            "creation_time": 1604750183.7165935
         }
     },
     "metadata": {

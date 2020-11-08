@@ -2,17 +2,23 @@
     "CarController": {
         "checkpoints": [
             {
-                "steps": 68170,
-                "file_path": "results\\ParkingAI\\CarController\\CarController-68170.nn",
-                "reward": -1.519545369979107,
-                "creation_time": 1604596142.4743629
+                "steps": 499994,
+                "file_path": "results/ParkingAI/CarController/CarController-499994.nn",
+                "reward": -47.02235487103462,
+                "creation_time": 1604873163.9761581
+            },
+            {
+                "steps": 500058,
+                "file_path": "results/ParkingAI/CarController/CarController-500058.nn",
+                "reward": -47.02235487103462,
+                "creation_time": 1604873165.9060056
             }
         ],
         "final_checkpoint": {
-            "steps": 68170,
-            "file_path": "results\\ParkingAI\\CarController.nn",
-            "reward": -1.519545369979107,
-            "creation_time": 1604596142.4743629
+            "steps": 500058,
+            "file_path": "results/ParkingAI/CarController.nn",
+            "reward": -47.02235487103462,
+            "creation_time": 1604873165.9060056
         }
     },
     "metadata": {

@@ -1,0 +1,23 @@
+{
+    "CarController": {
+        "checkpoints": [
+            {
+                "steps": 2673,
+                "file_path": "results/ppo/CarController/CarController-2673.nn",
+                "reward": -51.2423999508222,
+                "creation_time": 1604871427.4471602
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2673,
+            "file_path": "results/ppo/CarController.nn",
+            "reward": -51.2423999508222,
+            "creation_time": 1604871427.4471602
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.21.0",
+        "tensorflow_version": "2.3.1"
+    }
+}

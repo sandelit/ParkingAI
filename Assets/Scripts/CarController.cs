@@ -10,7 +10,6 @@ public class CarController : Agent
     private GameObject Car;
     GameObject[] ParkingSpots;
     GameObject ParkingSpot;
-
     private float currentSteerAngle;
     private float currentAcceleration;
     private float currentbreakForce;
@@ -36,11 +35,12 @@ public class CarController : Agent
     public override void Initialize()
     {
         ParkingSpots = GameObject.FindGameObjectsWithTag("ParkingSpot");
-        ParkingSpot = ParkingSpots[0];
+        ParkingSpot = GameObject.Find("ParkingSpot0");
 
         Car = GameObject.Find("Car");
         rb = Car.GetComponent<Rigidbody>();
         rb.centerOfMass = new Vector3(0, 0.3f, 0);
+
     }
 
     public override void OnEpisodeBegin()
@@ -69,40 +69,32 @@ public class CarController : Agent
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Cars") || other.gameObject.CompareTag("Decoration") 
-        || other.gameObject.CompareTag("House") || other.gameObject.CompareTag("Wall")) 
+        if (other.gameObject.CompareTag("Cars") || other.gameObject.CompareTag("Decoration")
+        || other.gameObject.CompareTag("House") || other.gameObject.CompareTag("Wall"))
         {
-            AddReward(-0.5f);
+            AddReward(-1f);
             EndEpisode();
             ResetCar();
         }
-        if(other.gameObject.CompareTag("Roads")){
-            AddReward(0.01f);
-        }
-
-        //////////////////////////////////////////////////////////////////////////////////////
-        // TODO: Kolla om hjulen kolliderar med parkeringsrutan istället för bilens hitbox :))
-        if (other.gameObject.CompareTag("ParkingSpot")){
-            AddReward(5.0f);
-            EndEpisode();
-            ResetCar();
-        }
-        //////////////////////////////////////////////////////////////////////////////////////
-
-
     }
 
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        Vector3 dirToTarget = (ParkingSpot.transform.position - transform.position).normalized;
+        if(sensor != null)
+        {
 
-        sensor.AddObservation(transform.position.normalized); // Bilens position
-        sensor.AddObservation(transform.forward); // Bilens Z-rotation
-        sensor.AddObservation(transform.right); // Bilens X-rotation
-        sensor.AddObservation(rb.velocity); // Bilens hastighet                             ??????? kanske idk ????
-        sensor.AddObservation(ParkingSpot.transform.position); // Parkeringens position
-        sensor.AddObservation(dirToTarget); // Riktning mot parkering
+            Vector3 directionToSpot = ParkingSpot.transform.position - transform.position;
+            float angleToParkingSpot = Vector3.Angle(directionToSpot, transform.forward);
+
+            sensor.AddObservation(transform.position.normalized); // Bilens position
+            sensor.AddObservation(transform.forward); // Bilens Z-rotation
+            sensor.AddObservation(transform.right); // Bilens X-rotation
+            sensor.AddObservation(rb.velocity); // Bilens hastighet                             ??????? kanske idk ????
+            sensor.AddObservation(ParkingSpot.transform.position); // Parkeringens position
+            sensor.AddObservation(directionToSpot); // Riktning mot parkering
+            AddReward(angleToParkingSpot * -0.001f);
+        }
     }
 
 
@@ -112,6 +104,8 @@ public class CarController : Agent
         HandleMotor();
         HandleSteering();
         UpdateWheels();
+        CheckIfParked();
+        CheckIfOnRoad();
     }
 
     private void HandleMotor()
@@ -168,5 +162,64 @@ public class CarController : Agent
 
         Car.transform.position = position;
         Car.transform.rotation = Quaternion.LookRotation(rotation);
+    }
+
+    public void CheckIfParked()
+    {
+        bool isParked = false;
+
+        float FL = Vector3.Distance(frontLeftWheelTransform.position, ParkingSpot.transform.position);
+        float FR = Vector3.Distance(frontRightWheeTransform.position, ParkingSpot.transform.position);
+        float RL = Vector3.Distance(rearLeftWheelTransform.position, ParkingSpot.transform.position);
+        float RR = Vector3.Distance(rearRightWheelTransform.position, ParkingSpot.transform.position);
+
+        if (FL < 2f && FR < 2f && RL < 2f && RR < 2f)
+        {
+            isParked = true;
+        }
+
+        if(isParked)
+        {
+            AddReward(5.0f);
+            EndEpisode();
+            ResetCar();
+        }
+    }
+
+    public void CheckIfOnRoad()
+    {
+        bool onRoad = false;
+
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("Roads");
+        GameObject closest = null;
+        float distance = Mathf.Infinity;
+        Vector3 position = transform.position;
+        foreach (GameObject go in gos)
+        {
+            Vector3 diff = go.transform.position - position;
+            float curDistance = diff.sqrMagnitude;
+            if (curDistance < distance)
+            {
+                closest = go;
+                distance = curDistance;
+            }
+        }
+
+        float FL = Vector3.Distance(frontLeftWheelTransform.position, closest.transform.position);
+        float FR = Vector3.Distance(frontRightWheeTransform.position, closest.transform.position);
+        float RL = Vector3.Distance(rearLeftWheelTransform.position, closest.transform.position);
+        float RR = Vector3.Distance(rearRightWheelTransform.position, closest.transform.position);
+
+        if(FL < 5f && FR < 5f && RL < 5f && RR < 5f)
+        {
+            onRoad = true;
+        }
+
+        if(onRoad)
+        {
+            AddReward(0.001f);
+        }
+
     }
 }

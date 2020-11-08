@@ -1,2 +1,3 @@
-model_checkpoint_path: "CarController-68170.ckpt"
-all_model_checkpoint_paths: "CarController-68170.ckpt"
+model_checkpoint_path: "CarController-500058.ckpt"
+all_model_checkpoint_paths: "CarController-499994.ckpt"
+all_model_checkpoint_paths: "CarController-500058.ckpt"

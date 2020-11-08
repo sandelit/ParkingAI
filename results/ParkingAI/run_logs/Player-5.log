@@ -1,0 +1,503 @@
+Mono path[0] = '/home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Managed'
+Mono config path = '/home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/MonoBleedingEdge/etc'
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Initialize engine version: 2020.1.8f1 (22e8c0b0c3ec)
+[Subsystems] Discovering subsystems at path /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.139 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Self-Illumin/VertexLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Self-Illumin/VertexLit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Self-Illumin/VertexLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Self-Illumin/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Self-Illumin/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Self-Illumin/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Basic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Toon/Basic shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Toon/Basic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Legacy Shaders/Diffuse shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Toon/Lit shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Toon/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Toon/Lit Outline shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Toon/Basic Outline shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'LowPolyShaders/LowPolyPBRShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader LowPolyShaders/LowPolyPBRShader shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'LowPolyShaders/LowPolyPBRShader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+ERROR: Shader Standard shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'Standard' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+UnloadTime: 0.457324 ms
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libSystem.dylib
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libSystem.dylib.so
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libSystem.dylib
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libcoreclr.so
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libSystem.dylib
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libSystem.dylib.so
+Fallback handler could not load library /home/sandelit/Documents/dev/unity/ParkingAI/ParkingAI_Data/Mono/libSystem.dylib
+WARNING: The communication API versions between Unity and python differ at the minor version level. Python API: 1.2.0, Unity API: 1.0.0 Python Library Version: 0.21.0 .
+This means that some features may not work unless you upgrade the package with the lower version.Please find the versions that work best together from our release page.
+https://github.com/Unity-Technologies/ml-agents/releases 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+requesting resize 84 x 84
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Look rotation viewing vector is zero 
+(Filename:  Line: 85)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 7f42514db700 -> priority: 1 
+  Thread -> id: 7f4250cda700 -> priority: 1 
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject.get_transform(UnityEngine.GameObject)
+  at CarController.CollectObservations (Unity.MLAgents.Sensors.VectorSensor sensor) [0x00006] in <c4593f78ca1a45cead24cff54890c171>:0 
+  at Unity.MLAgents.Agent.NotifyAgentDone (Unity.MLAgents.Agent+DoneReason doneReason) [0x0005e] in <15a68aa8fa104747ad0560be577cdb33>:0 
+  at Unity.MLAgents.Agent.OnDisable () [0x00080] in <15a68aa8fa104747ad0560be577cdb33>:0 
+ 
+(Filename: <c4593f78ca1a45cead24cff54890c171> Line: 0)
+

@@ -54,10 +54,8 @@ public class CarController : Agent
         currentAcceleration = vectorAction[1];
         currentbreakForce = vectorAction[2];
 
-        AddReward(-0.01f);
-        if(currentAcceleration > 0){
-            AddReward(0.005f);
-        }
+        AddReward(-0.001f);
+        
     }
 
     public override void Heuristic(float[] actionsOut)
@@ -93,7 +91,10 @@ public class CarController : Agent
             sensor.AddObservation(rb.velocity); // Bilens hastighet                             ??????? kanske idk ????
             sensor.AddObservation(ParkingSpot.transform.position); // Parkeringens position
             sensor.AddObservation(directionToSpot); // Riktning mot parkering
-            AddReward(angleToParkingSpot * -0.001f);
+            //AddReward(angleToParkingSpot * -0.0001f);
+            if(rb.velocity.x > 1 || rb.velocity.z > 1){
+            AddReward(0.005f);
+        }
         }
     }
 
@@ -218,7 +219,7 @@ public class CarController : Agent
 
         if(onRoad)
         {
-            AddReward(0.001f);
+            AddReward(0.01f);
         }
 
     }

@@ -54,15 +54,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11976}
+      Script: {instanceID: 11964}
     - Class: 114
-      Script: {instanceID: 13228}
+      Script: {instanceID: 13216}
     - Class: 114
-      Script: {instanceID: 13928}
+      Script: {instanceID: 13916}
     - Class: 114
-      Script: {instanceID: 13956}
+      Script: {instanceID: 13944}
     - Class: 114
-      Script: {instanceID: 14662}
+      Script: {instanceID: 14650}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -585,4 +585,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Projekt1/ParkingAIBuild/ParkingAI.exe
+  playerPath: E:/Projekt1/Parkingbuild/ParkingAI.exe

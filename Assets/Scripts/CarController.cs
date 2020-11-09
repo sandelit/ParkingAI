@@ -8,14 +8,15 @@ using UnityEngine;
 public class CarController : Agent
 {
     private GameObject Car;
-    GameObject[] ParkingSpots;
-    GameObject ParkingSpot;
     private float currentSteerAngle;
     private float currentAcceleration;
     private float currentbreakForce;
     private bool isBreaking;
-
+    Vector3 directionToSpot;
+        
     Rigidbody rb;
+
+    [SerializeField] private GameObject ParkingSpot;
 
     [SerializeField] private float motorForce;
     [SerializeField] private float breakForce;
@@ -34,13 +35,9 @@ public class CarController : Agent
 
     public override void Initialize()
     {
-        ParkingSpots = GameObject.FindGameObjectsWithTag("ParkingSpot");
-        ParkingSpot = GameObject.Find("ParkingSpot0");
-
         Car = GameObject.Find("Car");
         rb = Car.GetComponent<Rigidbody>();
         rb.centerOfMass = new Vector3(0, 0.3f, 0);
-
     }
 
     public override void OnEpisodeBegin()
@@ -79,22 +76,25 @@ public class CarController : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        if(sensor != null)
+
+        if(GameController.isQuitting)
         {
-
-            Vector3 directionToSpot = ParkingSpot.transform.position - transform.position;
-            float angleToParkingSpot = Vector3.Angle(directionToSpot, transform.forward);
-
-            sensor.AddObservation(transform.position.normalized); // Bilens position
-            sensor.AddObservation(transform.forward); // Bilens Z-rotation
-            sensor.AddObservation(transform.right); // Bilens X-rotation
-            sensor.AddObservation(rb.velocity); // Bilens hastighet                             ??????? kanske idk ????
-            sensor.AddObservation(ParkingSpot.transform.position); // Parkeringens position
-            sensor.AddObservation(directionToSpot); // Riktning mot parkering
-            //AddReward(angleToParkingSpot * -0.0001f);
-            if(rb.velocity.x > 1 || rb.velocity.z > 1){
-            AddReward(0.005f);
+            return;
         }
+
+        directionToSpot = ParkingSpot.transform.position - transform.position;
+        float angleToParkingSpot = Vector3.Angle(directionToSpot, transform.forward);
+
+        sensor.AddObservation(transform.position.normalized); // Bilens position
+        sensor.AddObservation(transform.forward); // Bilens Z-rotation
+        sensor.AddObservation(transform.right); // Bilens X-rotation
+        sensor.AddObservation(rb.velocity); // Bilens hastighet                             ??????? kanske idk ????
+        sensor.AddObservation(ParkingSpot.transform.position); // Parkeringens position
+        sensor.AddObservation(directionToSpot); // Riktning mot parkering
+
+        AddReward(angleToParkingSpot * -0.0001f);
+        if(rb.velocity.x > 1 || rb.velocity.z > 1){
+            AddReward(0.005f);
         }
     }
 
